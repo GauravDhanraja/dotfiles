@@ -1,0 +1,9 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "none_ls",
+        "cmp",
+        "lsp",
+        "format"
+    ]
+}
