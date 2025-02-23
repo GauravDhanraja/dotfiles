@@ -87,7 +87,6 @@ tooltip label {
 #clock,
 #custom-wifi,
 #bluetooth,
-#custom-update,
 #custom-media,
 #pulseaudio,
 /* #custom-backlight, */
@@ -275,8 +274,8 @@ tooltip label {
 /* == Tray == */
 
 #custom-wifi {
-  padding-left: 14px;
-  padding-right: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   background: @tray;
 }
 #custom-wifi:hover {
@@ -286,13 +285,18 @@ tooltip label {
 }
 
 #bluetooth {
-  padding-right: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
   background: @tray;
 }
 #bluetooth:hover {
   color: @hover-fg;
   text-shadow: none;
   box-shadow: none;
+}
+#custom-right5 {
+  color: @tray;
+  background: @main-bg;
 }
 
 /* == Media Info == */
