@@ -16,6 +16,7 @@ return {
         json = { "prettierd", "prettier", stop_after_first = true },
         prisma = { "prismals" },
         graphql = { "prettierd", "prettier", stop_after_first = true },
+        python = { "black", "isort" },
         java = { "google-java-format" },
         kotlin = { "ktlint" },
         ruby = { "standardrb" },

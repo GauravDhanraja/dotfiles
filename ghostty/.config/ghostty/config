@@ -2,4 +2,8 @@ font-family = FiraCode Nerd Font Mono
 font-size = 13
 
 theme = rose-pine
-background-opacity = 0.95
+background-opacity = 1
+window-padding-color = extend
+window-padding-balance = true
+
+mouse-hide-while-typing = true
